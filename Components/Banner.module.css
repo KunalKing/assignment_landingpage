@@ -1,0 +1,212 @@
+.PlaneImage{
+  position: absolute;
+  bottom: 0;
+  left: 23%;
+  top: 23%;
+  transform: rotate(-130deg);
+  width:14%;
+  max-width: 100%;
+}
+.bannerContainer{
+position: relative;
+width:772px;
+max-width: 100%;
+margin-top: 67px;
+left:60px;
+}
+.planeani_two{
+    position: absolute;
+    left: 33%;
+    top: 0%;
+    transform: rotate(51deg);
+    max-width: 100%;
+}
+
+.PlaneImage_three{
+    position: absolute;
+    right: 20%;
+    top: 16%;
+    transform: rotate(0deg);
+    max-width: 100%;
+}
+.LandMark{
+ position: absolute;
+ right: 15%;
+  bottom: 80%;
+  transform: rotate(30deg);
+  max-width: 100%;
+}
+.bannerMainSection{
+    display: flex;
+}
+.HeadingTextSection{
+    width:472px;
+    max-width:100%;
+    margin-top:8.25rem;
+}
+.button_style{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    padding: 19px 37px;
+    color: #F85E9F;
+    border: none;
+    background: whitesmoke;
+    border-radius: 50px;
+    display: flex;
+  align-items: center;
+  gap:4px;
+}
+.Heading{
+    margin-top:40px;
+font-size: 69px;
+font-weight: 700;
+line-height: 82.8px;
+text-align: left;
+}
+.HeadingColor{
+    color:#F85E9F;
+}
+.Heading{
+    margin-bottom: 43px;
+}
+.Heading_text{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+margin-bottom:43px;
+}
+.GetStaredButton{
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+text-align: left;
+background-color: #5D50C6;
+color:white;
+box-shadow: 0px 126px 35px 0px #00000000;
+padding:16px 32px;
+border-radius: 50px;
+}
+.WatchDemoButton{
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+text-align: left;
+background-color: whitesmoke;
+color:black;
+box-shadow: 0px 126px 35px 0px #00000000;
+padding:16px 32px;
+border-radius: 50px;
+}
+.WatchDemoButton{
+    display: flex;
+    align-content: center;
+    gap:8px;
+}
+.buttonsGroup{
+    display: flex;
+    gap:16px;
+}
+.TravelImages{
+    max-width:100%;
+}
+.First_twoImages{
+    display: flex;
+    flex-direction: column;
+}
+.Third_Travel{
+    clear: both;
+}
+.First_twoImages{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: absolute;
+    top: 214px;
+    right: 29%
+}
+.TravelImages{
+    margin-bottom:32px;
+}
+.cards{
+  width:40%;
+}
+.TravelImagesThree{
+    float: right;
+    position: absolute;
+    right: 200px;
+    top: 335px;
+}
+@media screen and (min-width: 1400px) and (max-width: 1477px) {
+    .TravelImagesThree{
+     float: right;
+    position: absolute;
+    right: 158px;
+    top: 335px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .TravelImagesThree{
+    right: 99px;
+    }
+    .Heading{
+    min-width: 427px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1299px) {
+    .TravelImagesThree{
+        right: 0px;
+        }
+        .Heading{
+            min-width: 110%;
+            }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 999px) {
+    .TravelImagesThree{
+        right: 0px;
+        top: 384px;
+        right: 19%;
+        width: 12%; 
+        transform: rotate(5deg);
+        }
+        .Heading{
+            min-width: 110%;
+            }
+        .First_twoImages{
+            right:11%;
+        }
+
+  }
+  @media screen and (min-width: 200px) and (max-width: 738px) {
+    .First_twoImages{
+        display: block;
+        position: absolute;
+        top: 0;
+        transition: ease-in;
+        right: 24px;
+        top: -17px;
+    }
+    .TravelImagesThree{
+        top: -16px;
+        width: 18%;
+        left: 0px;
+    }
+    .Heading{
+        min-width: 70%;
+        }
+        .TravelImages{
+            top: -16px;
+            width: 18%;
+            left: 50%;
+        }
+  }
+
+  
